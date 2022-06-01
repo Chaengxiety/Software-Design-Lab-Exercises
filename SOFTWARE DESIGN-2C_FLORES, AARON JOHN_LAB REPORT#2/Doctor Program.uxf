@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>200</y>
+      <w>310</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Doctor Class
+
+
+--
+-hedge: str
+-qualifiers: str
+-replacements: str
+-sentence : str
+
+--
+-greetings()
+-changePerson()
+-main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
