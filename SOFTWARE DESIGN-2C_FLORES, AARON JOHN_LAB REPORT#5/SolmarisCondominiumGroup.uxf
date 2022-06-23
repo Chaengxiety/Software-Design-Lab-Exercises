@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>310</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Property
+--
+-LocationNumber(INTEGER)
+-LocationName(TEXT)
+-Address(VARCHAR)
+-City(TEXT)
+-State(TEXT)
+-PostalCode(INTEGER)
+-UnitNumber(INTEGER)
+-SquareFootage(INTEGER)
+-NumberofBedrooms(INTEGER)
+-NumberofBathrooms(INTEGER)
+-MaxPersonSleep(INTEGER)
+-WeeklyRate(INTEGER)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Rental Agreement
+--
+-RenterNumber(INTEGER)
+-FirstName(TEXT)
+-MiddleInitial(TEXT)
+-LastName(TEXT)
+-Address(VARCHAR)
+-City(TEXT)
+-State(TEXT)
+-PostalCode(INTEGER)
+-PhoneNumber(INTEGER)
+-StartDate(VARCHAR)
+-EndDate(VARCHAR)
+-WeeklyRate(INTEGER)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>90</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Renter
+--
+-Number(INTEGER)
+-FirstName(TEXT)
+-MiddleInitial(TEXT)
+-LastName(TEXT)
+-Address(VARCHAR)
+-City(TEXT)
+-State(TEXT)
+-PostalCode(INTEGER)
+-PhoneNumber(INTEGER)
+-Email(VARCHAR)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>200</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;80.0;60.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>330</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;70.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>

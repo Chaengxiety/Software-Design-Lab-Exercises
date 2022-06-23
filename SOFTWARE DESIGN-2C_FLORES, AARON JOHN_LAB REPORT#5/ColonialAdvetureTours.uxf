@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>350</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>AdventureClass
+--
+-ClassNumber(INTEGER)
+-Description(TEXT)
+-MaxPeopleClass(INTEGER)
+-ClassFee(INTEGER)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>350</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>AdventureClass
+--
+-ClassNumber(INTEGER)
+-ClassDate(VARCHAR)
+-Description(TEXT)
+-Number(INTEGER)
+-LastName(TEXT)
+-FirstName(TEXT)
+-MaxPeopleClass(INTEGER)
+-ClassFee(INTEGER)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>120</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Participants
+--
+-ClassNumber(INTEGER)
+-LastName(TEXT)
+-FirstName(TEXT)
+-Address(VARCHAR)
+-City(TEXT)
+-State(TEXT)
+-PostalCode(INTEGER)
+-PhoneNumber(INTEGER)
+-BirthDate(VARCHAR)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>120</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Participants
+--
+-Number(INTEGER)
+-LastName(TEXT)
+-FirstName(TEXT)
+-ClassNumber(INTEGER)
+-Description(TEXT)
+-DateofClass(VARCHAR)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>230</y>
+      <w>220</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>430</y>
+      <w>220</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
